@@ -9,13 +9,12 @@ This specific module deep-dives into exploiting **sub-millisecond collision wind
 
 ## 🛠️ Lab Demonstration: Single-Packet Attack Execution
 
-Below is the walkthrough video demonstrating the successful exploitation of a race condition using the **single-packet attack technique**. 
+Below is the walkthrough video demonstrating the successful exploitation of a race condition using the **single-packet attack technique**. Click the image below to watch the full execution on YouTube:
 
-> 💡 **Note for Reviewers / Recruiters:** If you have cloned this repository locally, the video file can be found at `assets/race-condition-exploit.mp4`.
+[![Race Condition Exploit Demonstration](https://img.youtube.com/vi/KzBjZbQsIZY/0.jpg)](https://www.youtube.com/watch?v=KzBjZbQsIZY)
 
-![Race Condition Exploit Demonstration](assets/race-condition-exploit.mp4)
+*Note: Click the thumbnail above to open the walkthrough video player in a new tab.*
 
-*If your markdown reader does not support native MP4 playback, you can view or download the raw file directly from the `/assets` directory of this repository.*
 
 ---
 
