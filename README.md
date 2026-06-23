@@ -15,7 +15,19 @@ Below is the walkthrough video demonstrating the successful exploitation of a ra
 
 *Note: Click the thumbnail above to open the walkthrough video player in a new tab.*
 
+# Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data
 
+## 🛠️ Lab Demonstration
+
+Below is the walkthrough video demonstrating the successful manipulation of the application's SQL query constraints to uncover hidden database records. Click the image below to watch the execution on YouTube:
+
+[![SQLi Hidden Data Lab Walkthrough](https://img.youtube.com/vi/ic0IIMJwGNs/0.jpg)](https://youtu.be/ic0IIMJwGNs)
+
+---
+
+## 🔗 Connected Write-up
+For a deeper dive into the logic behind conditional overrides and the operations impact of direct input concatenation, read my full article on Medium:
+👉 [Breaking the Filter: How I Unlocked Hidden Application Data via SQL Injection](https://medium.com/@jineshcanada23/breaking-the-filter-how-i-unlocked-hidden-application-data-via-sql-injection-2ea072a5fe96)
 ---
 
 ## 🧠 Key Technical Takeaways & Core Concepts
