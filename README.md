@@ -67,4 +67,20 @@ The vulnerability exists in the username input field, which feeds directly into 
 
 ---
 
+### 3. Lab: SQL injection attack, querying the database type and version on Oracle
+**Difficulty:** APPRENTICE
+
+#### 🛠️ Lab Demonstration
+Below is the walkthrough video demonstrating how to identify the back-end database type and retrieve the Oracle database version using a UNION-based SQL injection attack. Click the image below to watch the execution on YouTube:
+
+[![Oracle SQL Injection Lab Walkthrough](https://img.youtube.com/vi/EB-TSJEs1HI/0.jpg)](https://youtu.be/EB-TSJEs1HI)
+
+#### 🧠 Technical Summary
+The application is vulnerable to a UNION-based SQL injection attack in the product category parameter. By first determining the correct number of columns using `ORDER BY` testing and then leveraging `UNION SELECT`, it is possible to retrieve the Oracle database version from the `v$version` system view. Because Oracle requires every `SELECT` statement to reference a table, the payload uses the built-in `dual` table to successfully extract version information, demonstrating how attackers perform database fingerprinting during the reconnaissance phase of an attack.
+
+#### 🔗 Connected Write-up
+👉 [Oracle SQL Injection: How I Retrieved the Database Version | PortSwigger Web Security Academy](https://medium.com/@jineshcanada23/oracle-sql-injection-how-i-retrieved-the-database-version-portswigger-web-security-academy-4c1dc3a27ffb)
+
+---
+
 *Looking to collaborate or discussing AppSec / SecOps roles? Feel free to open an issue or connect with me directly via [LinkedIn](https://www.linkedin.com/in/jineshmajithia/)!*
